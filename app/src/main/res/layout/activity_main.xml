@@ -8,7 +8,7 @@
     tools:context=".ui.initial.MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/Logo"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:src="@mipmap/ic_logo_"
@@ -26,7 +26,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/Logo"
         app:layout_constraintVertical_bias="0.152" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

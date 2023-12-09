@@ -6,7 +6,9 @@ import android.os.Bundle
 import com.example.inmovilla.R
 import com.example.inmovilla.databinding.ActivityLoginBinding
 import com.example.inmovilla.ui.homepage.HomeActivity
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class LogActivity : AppCompatActivity() {
 
     private lateinit var binding:ActivityLoginBinding
